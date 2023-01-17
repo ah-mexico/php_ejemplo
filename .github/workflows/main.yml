@@ -7,3 +7,4 @@ jobs:
      - name: set the value using env vars
        run: |
           echo "variablename=this-is -value" >> $GITHUB_ENV
+          
