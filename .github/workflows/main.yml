@@ -11,4 +11,11 @@ jobs:
      - name: set the value using env vars
        run: |
           echo "variablename=this-is -value" >> $GITHUB_ENV
+    
+     - name: get-variable-value
+       run: |
+        echo: "imprimir valores"
+        echo: variablename: {{ env.variablename }}
+     
+    
           
