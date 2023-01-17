@@ -1,0 +1,12 @@
+name: passing
+on: workflow_dispatch
+jobs:
+  passing-values-bw-steps:
+     runs-on: ubuntu-latest
+     steps:
+     - name: set the value using env vars
+       run: |
+          echo "variablename=this-is -value" >> $GITHUB_ENV
+          
+  
+  
